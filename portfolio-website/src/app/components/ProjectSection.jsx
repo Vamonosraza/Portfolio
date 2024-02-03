@@ -6,23 +6,23 @@ const projectsData = [
         id: 1,
         title: 'Project 1',
         description: 'This is a project description',
-        imgUrl: 'images/projects/project1.jpg',
+        image: 'images/projects/project1.jpg',
         tag: ['All', 'Web']
     },
     {
         id: 2,
         title: 'Project 2',
         description: 'This is a project description',
-        imgUrl: 'images/projects/project2.jpg',
+        image: 'images/projects/project2.jpg',
         tag: ['All', 'Web']
     },
     {
         id: 3,
         title: 'Project 3',
         description: 'This is a project description',
-        imgUrl: 'images/projects/project3.jpg',
+        image: 'images/projects/project3.jpeg',
         tag: ['All', 'Web']
-    }
+    },
     ]
 
 const ProjectSection = () => {

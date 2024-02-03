@@ -2,7 +2,7 @@ import React from 'react'
 import { CodeBracketIcon, EyeIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
 
-const ProjectCard = (imgUrl, title, description) => {
+const ProjectCard = ({imgUrl, title, description}) => {
     return (
         <div>
             <div className='h-52 md:h-72 rounded-t-xl relative' 
