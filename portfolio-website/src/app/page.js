@@ -3,6 +3,7 @@ import HeroSection from "./components/HeroSection";
 import { Container } from "postcss";
 import Navbar from "./components/Navbar";
 import AboutSection from "./components/AboutSection";
+import ProjectSection from "./components/ProjectSection";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <div class="container mt-24 mx-auto">
           <HeroSection/>
           <AboutSection/>
+          <ProjectSection/>
         </div>
     </main>
   );
