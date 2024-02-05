@@ -84,12 +84,12 @@ const EmailSection = () => {
                     required
                     placeholder='Type your message here' className='bg-[#181818] border-[#ADB7BE] border-2 rounded-md py-2 px-4 text-white mb-3' />
                     
-                    <button type='submit' className='bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 text-white py-2 rounded-md'>
+                    <button type='submit' className='bg-gradient-to-br from-blue-500 via-primary-500 to-pink-500 text-white py-2 rounded-md'>
                         Send
                     </button>
 
                     {
-                        emailSubmitted && ( <p className=' text-purple-400 text-sm mt-4'>Email sent successfully</p>)
+                        emailSubmitted && ( <p className=' text-primary-400 text-sm mt-4'>Email sent successfully</p>)
                     }
                 </form>
             </div>
