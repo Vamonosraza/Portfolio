@@ -8,10 +8,12 @@ const achievementsList = [
     {
         metric: 'Projects',
         value: 10,
+        prefix: '+',
     },
     {
         metric: 'Years of Experience',
         value: 2,
+        postfix: '',
     },
 
 ]
@@ -23,7 +25,23 @@ const AchievementSection = () => {
                 achievementsList.map((achievement, index) => {
                     return (
                         <div key={index} className='flex flex-col items-center justify-center mx-4'>
-                            <h2 className='text-4xl font-bold text-white'>{achievement.value}</h2>
+                            <h2 className='text-4xl font-bold text-white flex flex-row'>
+                                {achievement.prefix}
+                                <AnimatedNumbers 
+                                includeComma
+                                animateToNumber={parseInt(achievement.value)}
+                                locale='en-US'
+                                className='text-4xl font-bold text-white'
+                                configs={(_, index) => {
+                                    return{
+                                        mass:1,
+                                        friction: 100,
+                                        tensions: 140 * (index+1),
+                                    };}
+                                    }
+                                />
+                                    {achievement.postfix}
+                            </h2>
                             <p className='text-[#ADB7BE] text-base'>{achievement.metric}</p>
                         </div>
                     )
