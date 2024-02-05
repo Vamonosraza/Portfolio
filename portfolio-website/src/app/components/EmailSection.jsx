@@ -89,7 +89,7 @@ const EmailSection = () => {
                     </button>
 
                     {
-                        emailSubmitted && ( <p className='text-white text-sm mt-4'>Email sent successfully</p>)
+                        emailSubmitted && ( <p className=' text-purple-400 text-sm mt-4'>Email sent successfully</p>)
                     }
                 </form>
             </div>
