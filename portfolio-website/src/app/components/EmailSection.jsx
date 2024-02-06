@@ -44,7 +44,7 @@ const EmailSection = () => {
                     Let's Connect!
                 </h5>
                 <p className='text-[#ADB7BE] mb-4 max-w-wb'>
-                    Thank you reviewing my portfolio. I'm always open to new opportunities and meeting new people. Feel free to reach out to me!
+                    Thank you reviewing my portfolio. I'm always open to new opportunities and collaborating with others. Feel free to reach out to me!
                 </p>
                 <div className='socials flex flex-row gap-2'>
                     <Link href='https://github.com/Vamonosraza'>
