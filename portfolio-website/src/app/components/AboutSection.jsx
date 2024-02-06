@@ -23,7 +23,7 @@ const TAB_DATA = [
         content: (
             <ul className='list-disc list-inside'>
                 <li>Bachelor's Degree in Computer Science</li>
-                <li>San Francisco State</li>
+                <li>San Francisco State Spring 2024</li>
             </ul>
         )
     },
@@ -61,7 +61,7 @@ const AboutSection = () => {
                 <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
                     <h2 className='text-4xl font-bold mb-4'>About Me</h2>
                     <p className='text-base md:text-lg'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ab sapiente. Fuga possimus culpa veritatis eos distinctio assumenda voluptates atque commodi nemo harum, minus quo sapiente provident. Assumenda, explicabo. Voluptatibus.
+                        I am a developer who likes to code and build things. I have experience in web development, mobile development, data analytics, and UX/UI design. I am always willing to work with others and learn new things. I am grateful to live in San Francisco where I can collaborate with other talented developers and designers. I am currently looking for new opportunities to work on exciting projects and grow my skills.
                     </p>
                     <div className='flex flex-row justify-start mt-8'>
                         <TabButton selectTab={() => handleTabChange('Skills')} active ={tab === 'Skills'}>Skills</TabButton>

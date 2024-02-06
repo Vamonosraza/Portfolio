@@ -36,10 +36,7 @@ const HeroSection = () => {
                     </h1>
 
                     <p className="text-[#ADB7Be] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem
-            doloribus non tempora architecto minima quibusdam officiis dolores
-            suscipit! Eius doloribus rerum quo reprehenderit. Facere commodi
-            adipisci blanditiis eum minus nihil!
+            Welcome to my portfolio! Explore below to discover more about me, browse through my projects, and find out how to get in touch. Thank you for stoping by!
                     </p>
                     <div>
                         <Link href='/#contact' className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 bg-white hover:bg-slate-200 text-white">
