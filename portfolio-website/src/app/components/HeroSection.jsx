@@ -50,7 +50,7 @@ const HeroSection = () => {
                 <div className="col-span-5 place-self-center mt-4 lg:mt-0">
                     <div className="rounded-full bg-[#1818118] w-[250px] h-[250px] relative">
                         <Image
-                        src="/images/selfNobackground.jpeg"
+                        src="/images/watercolorSelf.jpg"
                         alt="selfie"
                         className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full"
                         width={300}
